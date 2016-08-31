@@ -1,0 +1,919 @@
+Network object group AWS_DR_SQL_Clients_243
+ host 10.9.116.250
+ host 10.9.116.207
+ host 10.9.116.171
+ host 10.9.116.188
+ host 10.9.116.150
+ host 10.9.116.169
+ host 10.9.117.233
+ host 10.9.116.79
+ host 10.9.116.249
+ host 10.9.116.90
+ host 10.9.116.248
+ host 10.9.117.63
+ host 10.9.116.162
+ host 10.9.116.140
+ host 10.9.116.184
+ host 10.9.116.103
+ host 10.9.116.119
+ host 10.9.116.120
+ host 10.9.116.147
+ host 10.9.116.205
+ host 10.9.116.23
+ host 10.9.116.24
+ host 10.9.116.121
+ host 10.9.116.222
+ host 10.9.117.157
+ host 10.9.116.66
+ host 10.9.116.149
+ host 10.9.116.36
+ host 10.9.116.91
+ host 10.9.117.244
+ host 10.9.116.209
+ host 10.9.116.41
+ host 10.9.116.219
+ host 10.9.116.218
+ host 10.9.116.217
+ host 10.9.116.216
+ host 10.9.116.215
+ host 10.9.116.214
+ host 10.9.116.77
+ host 10.9.116.76
+ host 10.9.116.82
+ host 10.9.116.81
+ host 10.9.116.80
+ host 10.9.116.78
+ host 10.9.116.182
+ host 10.9.116.89
+ host 10.9.116.61
+ host 10.9.164.207
+
+Network object group AWS_DR_SQL_Clients_244
+ host 10.9.164.220
+ host 10.9.164.108
+ host 10.9.164.14
+ host 10.9.164.176
+ host 10.9.164.16
+ host 10.9.164.18
+ host 10.9.164.39
+ host 10.9.164.69
+ host 10.9.164.68
+ host 10.9.164.64
+ host 10.9.164.202
+ host 10.9.164.65
+ host 10.9.164.161
+ host 10.9.164.70
+ host 10.9.164.67
+ host 10.9.164.66
+ host 10.9.164.47
+ host 10.9.164.23
+ host 10.9.164.211
+ host 10.9.164.57
+ host 10.9.165.67
+ host 10.9.164.127
+ host 10.9.164.43
+ host 10.9.164.175
+ host 10.9.164.44
+ host 10.9.164.113
+ host 10.9.165.25
+ host 10.9.164.229
+ host 10.9.165.245
+ host 10.9.164.216
+ host 10.9.164.11
+ host 10.9.164.8
+ host 10.9.164.215
+ host 10.9.164.86
+ host 10.9.164.194
+ host 10.9.162.90
+ host 10.9.162.169
+ host 10.9.162.171
+ host 10.9.162.217
+ host 10.9.166.26
+ host 10.9.162.185
+ host 10.9.162.29
+ host 10.9.164.110
+ host 10.9.164.236
+ host 10.9.164.56
+ host 10.9.164.109
+ host 10.9.164.34
+ host 10.9.164.33
+ host 10.9.164.154
+ host 10.9.164.37
+ host 10.9.164.36
+ host 10.9.164.35
+ host 10.9.164.30
+ host 10.9.164.29
+ host 10.9.164.170
+ host 10.9.164.31
+ host 10.9.164.59
+ host 10.9.164.119
+ host 10.9.164.45
+ host 10.9.164.173
+ host 10.9.164.41
+ host 10.9.164.42
+ host 10.9.164.219
+ host 10.9.164.22
+ host 10.9.164.26
+ host 10.9.164.114
+ host 10.9.165.208
+ host 10.9.164.189
+ host 10.9.164.164
+ host 10.9.164.198
+ host 10.9.164.195
+ host 10.9.164.184
+ host 10.9.164.58
+ host 10.9.164.54
+
+Network object group AWS_Marketing_SQL_DBA_IPs
+ host 192.168.3.122
+ host 10.150.10.199
+ host 10.130.11.16
+          
+Network object group AWS_Marketing_SQL_Servers
+ host 10.9.192.105
+ host 10.253.2.129
+ host 10.9.196.54
+ host 10.9.202.59
+ host 10.253.2.196
+
+Service object group CIFS_Ports
+ tcp eq 137
+ tcp eq 139
+ tcp eq 445
+ udp eq netbios-ns
+ udp eq netbios-dgm
+
+Network object group Dev-QA-CIC-Servers
+ host 10.10.128.85
+ host 10.10.128.80
+
+Network object group Dev-QA-i3-Audio-Recording-Servers
+ host 10.9.116.184
+ host 10.9.116.87
+ host 10.9.116.182
+ host 10.9.116.89
+ host 10.9.164.56
+ host 10.9.164.109
+ host 10.9.164.54
+ host 10.9.164.108
+
+Network object group Expedient-Domain-Controllers
+ host 192.168.10.15
+ host 192.168.110.8
+ host 192.168.110.9
+ host 192.168.10.37
+
+Network object group Expedient_Marketing_All_Ports_Hosts
+ host 192.168.2.236
+ host 192.168.2.14
+
+Network object group HQ_Marketing_All_Ports_Hosts
+ host 10.130.10.153
+ host 10.130.11.124
+ host 10.130.11.16
+ host 10.130.11.156
+
+Service object group HTTP_HTTPS_Ports
+ tcp eq www
+ tcp eq 443
+
+Service object group Idera_Management_Ports
+ tcp eq 5166
+ tcp eq 5167
+
+Service object group LogicMonitor-Ports
+ icmp echo
+ tcp eq 135
+
+Network object group LogicMonitor-Servers
+ host 192.168.6.212
+ host 192.168.6.213
+ host 192.168.6.214
+
+Network object group Marketing-AWS-Admins
+ host 10.130.11.124
+ host 10.130.11.156
+          
+Network object group Marketing-Networks-AWS-Oregon
+ 10.253.2.0 255.255.255.0
+ 10.253.3.0 255.255.255.0
+ 10.253.4.0 255.255.255.0
+ 10.253.10.0 255.255.255.0
+ 10.253.11.0 255.255.255.0
+
+Network object group Marketing-Networks-AWS-Virginia
+ 10.9.192.0 255.255.255.0
+ 10.9.193.0 255.255.255.0
+ 10.9.194.0 255.255.255.0
+ 10.9.195.0 255.255.255.0
+ 10.9.196.0 255.255.255.0
+ 10.9.197.0 255.255.255.0
+ 10.9.164.0 255.255.255.0
+ 10.9.202.0 255.255.255.0
+ 10.9.203.0 255.255.255.0
+ 10.9.204.0 255.255.255.0
+ 10.9.205.0 255.255.255.0
+ 10.9.206.0 255.255.255.0
+
+Network object group Marketing_Oregon_DCs
+ host 10.253.2.168
+
+Network object group Marketing_Oregon_IP_Block
+ 10.253.0.0 255.255.240.0
+
+Network object group Marketing_Virginia_DCs
+ host 10.9.192.98
+
+Network object group Marketing_Virginia_IP_Block
+ 10.9.192.0 255.255.240.0
+
+Network object group Marketing_Web_Servers
+ host 10.9.194.94
+ host 10.9.197.116
+ host 10.253.4.147
+ host 10.253.4.96
+ host 10.253.4.151
+
+Network object group Oregon-Marketing-TFS-Nodes
+ host 10.253.4.119
+ host 10.253.4.121
+ host 10.253.4.147
+
+Network object group P10_1
+ host 10.9.118.10
+ host 10.9.118.11
+ host 10.9.166.10
+ host 10.9.166.11
+
+Network object group P10_2
+ host 192.168.10.13
+ host 10.150.11.100
+ host 10.150.11.101
+ host 10.150.11.5
+ host 10.150.11.6
+ host 10.150.11.8
+ host 10.150.11.130
+ host 10.150.11.131
+ host 10.150.11.102
+ host 10.150.11.103
+ host 10.150.11.132
+ host 10.150.11.133
+          
+Network object group P11_1
+ host 10.9.118.10
+ host 10.9.118.11
+ host 10.9.166.10
+ host 10.9.166.11
+
+Network object group P11_2
+ host 192.168.10.13
+ host 10.150.11.100
+ host 10.150.11.101
+ host 10.150.11.5
+ host 10.150.11.6
+ host 10.150.11.8
+ host 10.150.11.130
+ host 10.150.11.131
+ host 10.150.11.102
+ host 10.150.11.103
+ host 10.150.11.132
+ host 10.150.11.133
+
+Network object group P15_1
+ 10.9.116.0 255.255.255.0
+
+Network object group P15_2
+ host 10.130.1.53
+ host 10.130.1.26
+ host 10.130.1.27
+
+Network object group P16_1
+ 10.9.164.0 255.255.255.0
+ 10.9.162.0 255.255.255.0
+
+Network object group P16_2
+ host 192.168.3.7
+ host 192.168.3.8
+ host 192.168.3.102
+ host 192.168.3.103
+ host 192.168.3.104
+ host 192.168.3.109
+
+Network object group P17_1
+ host 10.9.162.90
+ host 10.9.162.169
+ host 10.9.162.185
+ host 10.9.162.29
+ host 10.9.162.217
+ host 10.9.162.171
+ host 10.9.162.215
+ host 10.9.117.63
+ host 10.9.116.220
+ host 10.9.117.49
+
+Network object group P17_2
+ host 192.168.3.104
+ host 192.168.3.102
+ host 192.168.3.103
+ host 192.168.3.7
+ host 192.168.3.4
+ host 192.168.3.109
+
+Network object group P19_1
+ 10.9.161.0 255.255.255.0
+ 10.9.162.0 255.255.255.0
+ 10.9.163.0 255.255.255.0
+ 10.9.164.0 255.255.255.0
+ 10.9.165.0 255.255.255.0
+ 10.9.166.0 255.255.255.0
+ 10.9.167.0 255.255.255.0
+ 10.9.168.0 255.255.255.0
+ 10.9.169.0 255.255.255.0
+ 10.9.170.0 255.255.255.0
+ 10.9.171.0 255.255.255.0
+ 10.9.172.0 255.255.255.0
+ 10.9.173.0 255.255.255.0
+ 10.9.174.0 255.255.255.0
+ 10.9.175.0 255.255.255.0
+ 10.9.176.0 255.255.255.0
+ 10.9.177.0 255.255.255.0
+ 10.9.178.0 255.255.255.0
+ 10.9.179.0 255.255.255.0
+ 10.9.180.0 255.255.255.0
+ 10.9.181.0 255.255.255.0
+ 10.9.182.0 255.255.255.0
+ 10.9.183.0 255.255.255.0
+ 10.9.184.0 255.255.255.0
+ 10.9.185.0 255.255.255.0
+ 10.9.186.0 255.255.255.0
+ 10.9.187.0 255.255.255.0
+ 10.9.188.0 255.255.255.0
+ 10.9.189.0 255.255.255.0
+ 10.9.190.0 255.255.255.0
+
+Network object group P19_2
+ host 10.10.136.130
+ host 10.10.136.131
+ host 10.10.136.132
+ host 10.10.136.133
+ host 10.10.136.134
+ host 10.10.136.135
+ host 10.10.136.136
+ host 10.10.136.137
+ host 10.10.136.138
+ host 10.10.136.139
+ host 10.10.136.140
+ host 10.10.136.141
+ host 10.10.136.142
+ host 10.10.136.143
+ host 10.10.136.144
+ host 10.10.136.145
+ host 10.10.136.146
+ host 10.10.136.147
+ host 10.10.136.148
+ host 10.10.136.149
+ host 10.10.136.30
+ host 10.10.136.31
+ host 10.10.136.32
+ host 10.10.136.33
+ host 10.10.136.34
+ host 10.10.136.35
+ host 10.10.136.36
+ host 10.10.136.37
+ host 10.10.136.38
+ host 10.10.136.39
+ host 10.10.136.40
+ host 10.10.136.41
+ host 10.10.136.42
+ host 10.10.136.43
+ host 10.10.136.44
+ host 10.10.136.45
+ host 10.10.136.46
+ host 10.10.136.47
+ host 10.10.136.48
+ host 10.10.136.49
+
+Network object group P1_1
+ 10.9.162.0 255.255.255.0
+ 10.9.116.0 255.255.255.0
+
+Network object group P1_2
+ host 192.168.2.142
+ host 192.168.2.141
+ host 192.168.2.140
+ host 192.168.2.139
+
+Network object group P20_1
+ 10.9.164.0 255.255.255.0
+
+Network object group P2_1
+ 10.9.164.0 255.255.255.0
+ 10.9.162.0 255.255.255.0
+
+Network object group P2_2
+ host 10.150.11.23
+ host 10.150.11.24
+
+Network object group P3_1
+ 10.9.116.0 255.255.255.0
+ 10.9.117.0 255.255.255.0
+ 10.9.118.0 255.255.255.0
+ 10.9.164.0 255.255.255.0
+ 10.9.165.0 255.255.255.0
+ 10.9.166.0 255.255.255.0
+ 10.9.162.0 255.255.255.0
+
+Network object group P3_2
+ host 192.168.3.36
+
+Network object group P4_1
+ 10.9.116.0 255.255.255.0
+ 10.9.117.0 255.255.255.0
+ 10.9.165.0 255.255.255.0
+
+Network object group P4_2
+ 10.130.0.0 255.255.0.0
+ 10.150.10.0 255.255.255.0
+ 10.255.12.0 255.255.255.0
+
+Network object group P5_1
+ 10.9.166.0 255.255.255.0
+ 10.9.165.0 255.255.255.0
+ 10.9.164.0 255.255.255.0
+ 10.9.118.0 255.255.255.0
+ 10.9.117.0 255.255.255.0
+ 10.9.116.0 255.255.255.0
+
+Network object group P5_2
+ host 192.168.2.46
+
+Network object group P6_1
+ 10.9.116.0 255.255.255.0
+ 10.9.117.0 255.255.255.0
+ 10.9.165.0 255.255.255.0
+ 10.9.164.0 255.255.255.0
+ 10.9.162.0 255.255.255.0
+          
+Network object group P6_2
+ host 10.130.1.58
+ host 10.130.1.89
+ host 10.130.1.60
+
+Network object group P7_1
+ 10.9.162.0 255.255.255.0
+ 10.9.164.0 255.255.255.0
+ 10.9.165.0 255.255.255.0
+ 10.9.166.0 255.255.255.0
+
+Network object group P7_2
+ host 192.168.3.21
+ host 192.168.3.22
+
+Network object group P8_1
+ 10.9.117.0 255.255.255.0
+
+Network object group P8_2
+ host 10.130.11.78
+ host 10.130.11.64
+ host 10.130.11.76
+ host 10.130.11.208
+ host 10.130.11.236
+ host 10.130.11.9
+ host 10.130.11.166
+ host 10.130.11.105
+ host 10.130.11.238
+ host 10.130.10.238
+ host 10.130.10.64
+ host 10.130.10.208
+ host 10.130.10.236
+ host 10.130.11.108
+ host 10.130.10.105
+
+Network object group P9_1
+ host 192.168.10.13
+ host 10.150.11.100
+ host 10.150.11.101
+ host 10.150.11.5
+ host 10.150.11.6
+ host 10.150.11.8
+ host 10.150.11.130
+ host 10.150.11.131
+ host 10.150.11.102
+ host 10.150.11.103
+ host 10.150.11.132
+ host 10.150.11.133
+
+Network object group P9_2
+ host 10.9.118.10
+ host 10.9.118.11
+ host 10.9.166.10
+ host 10.9.166.11
+
+Network object group QA-VIPs
+ host 10.10.128.42
+ host 10.10.128.43
+ host 10.10.128.46
+ host 10.10.128.47
+ host 10.10.128.48
+ host 10.10.128.54
+ host 10.10.128.55
+ host 10.10.128.59
+ host 10.10.128.60
+ host 10.10.128.66
+ host 10.10.128.67
+ host 10.10.136.130
+ host 10.10.136.131
+ host 10.10.136.133
+ host 10.10.136.134
+ host 10.10.136.135
+ host 10.10.136.136
+ host 10.10.136.137
+ host 10.10.136.138
+ host 10.10.136.139
+ host 10.10.136.140
+ host 10.10.136.141
+ host 10.10.136.142
+ host 10.10.136.143
+ host 10.10.136.144
+ host 10.10.136.145
+ host 10.10.136.146
+ host 10.10.136.147
+ host 10.10.136.148
+ host 10.10.136.149
+ host 10.10.136.31
+ host 10.10.136.33
+ host 10.10.136.34
+ host 10.10.136.35
+ host 10.10.136.37
+ host 10.10.136.38
+ host 10.10.136.39
+ host 10.10.136.40
+ host 10.10.136.41
+ host 10.10.136.42
+ host 10.10.136.43
+ host 10.10.136.44
+ host 10.10.136.45
+ host 10.10.136.46
+ host 10.10.136.47
+ host 10.10.136.48
+ host 10.10.136.49
+ host 10.10.136.54
+ host 10.10.136.55
+ host 10.10.136.61
+
+Service object group RDP_Ports
+ tcp eq 3389
+
+Service object group S11_1
+ tcp eq 464
+ tcp eq 445
+ tcp eq 88
+ tcp eq domain
+ tcp eq 135
+ tcp eq 3269
+ tcp eq 3268
+ tcp eq 389
+ tcp range 1024 65535
+
+Service object group S15_1
+ tcp eq www
+ tcp eq 443
+ tcp eq 56737
+ tcp eq 56738
+ tcp eq 8182
+
+Service object group S16_1
+ tcp eq www
+ tcp eq 443
+ tcp eq 8182
+ tcp eq 37881
+ tcp eq 39486
+ tcp eq 56737
+ tcp eq 56738
+ tcp eq 58607
+
+Service object group S17_1
+ tcp eq 9191
+ tcp eq 9192
+ tcp eq www
+
+Service object group S19_1
+ tcp eq 443
+ tcp eq www
+
+Service object group S1_1
+ tcp eq www
+ tcp eq 443
+
+Service object group S2_1
+ tcp eq 443
+
+Service object group S31_1
+ udp source eq 1434
+ udp
+ tcp source eq 60883
+ tcp
+
+Service object group S3_1
+ tcp eq smtp
+
+Service object group S4_1
+ tcp eq 10001
+ udp eq 1434
+
+Service object group S5_1
+ tcp eq 8080
+ tcp eq 9090
+
+Service object group S6_1
+ tcp eq 1526
+ tcp eq 1523
+
+Service object group S7_1
+ tcp eq 389
+
+Service object group S8_1
+ tcp eq 49351
+ tcp eq 10001
+ tcp eq 49538
+
+Service object group S9_1
+ tcp eq 135
+
+Network object group SCCM-Clients-Oregon
+ group-object Marketing-Networks-AWS-Oregon
+
+Network object group SCCM-Clients-Virginia
+ group-object Marketing-Networks-AWS-Virginia
+ 10.9.83.0 255.255.255.0
+ 10.9.116.0 255.255.255.0
+ 10.9.117.0 255.255.255.0
+ 10.9.118.0 255.255.255.0
+ 10.9.162.0 255.255.255.0
+ 10.9.164.0 255.255.255.0
+ 10.9.165.0 255.255.255.0
+ 10.9.166.0 255.255.255.0
+
+Network object group SCCM-Servers-Expedient
+ host 192.168.2.126
+ host 192.168.2.173
+ host 192.168.2.128
+
+Network object group SQL_AND_ORACLE_DATABASES
+ host 192.168.2.55
+ host 192.168.2.56
+ host 192.168.2.200
+ host 192.168.2.23
+
+Service object group SQL_SSMS_PORTS
+ tcp-udp eq 1521
+ tcp-udp eq 1433
+ tcp-udp eq 1434
+ tcp-udp eq 30001
+ tcp-udp eq 53023
+ tcp-udp eq 58057
+ tcp-udp eq 1526
+
+Service object group SSH_Ports
+ tcp eq 22
+
+Network object group ServiceNow-Dev-QA-DCs
+ 10.9.121.0 255.255.255.0
+ 10.9.169.0 255.255.255.0
+
+Service object group TFS-Ports
+ tcp eq 1000
+ tcp eq 8080
+
+Network object group TFS-Server
+ host 192.168.6.205
+
+Network object group Virginia-Marketing-TFS-Nodes
+ host 10.9.194.94
+ host 10.9.197.116
+ host 10.9.164.16
+ host 10.9.204.96
+
+Service object group i3-Lithia-Springs-Ports-for-Dev-QA-Access
+ tcp eq 443
+ tcp eq 59674
+ tcp eq 49351
+ tcp eq 1001
+ tcp eq 30001
+ udp eq 1434
+ tcp range 49152 65535
+ tcp eq 10001
+
+Network object group i3-Lithia-Springs-Servers-for-Dev-QA-Access
+ host 10.9.116.5
+ host 10.9.116.66
+ host 10.9.116.10
+ host 10.9.116.79
+ host 10.10.128.87
+ host 10.9.117.91
+ host 10.9.117.41
+ host 10.9.164.115
+ host 10.10.128.47
+ host 10.9.164.217
+ host 10.9.164.11
+ host 10.10.128.84
+ host 10.9.165.120
+ host 10.10.128.40
+ host 10.10.128.41
+ host 192.168.8.5
+ host 192.168.8.225
+ host 10.10.128.133
+ host 10.10.128.111
+ host 10.9.116.215
+ host 10.9.116.216
+ host 10.9.116.217
+ host 10.9.116.218
+ host 10.9.116.219
+ host 10.9.116.89
+ host 10.9.116.53
+ host 10.9.116.87
+ host 10.9.164.58
+ host 10.9.164.220
+ host 10.9.164.221
+ host 10.9.164.222
+ host 10.9.164.223
+ host 10.9.164.224
+ host 10.9.164.225
+ host 10.9.164.108
+ host 10.9.164.110
+ host 10.9.164.236
+ host 10.9.164.109
+ host 10.9.116.214
+ host 10.9.116.77
+ host 10.9.116.76
+ host 10.9.116.82
+ host 10.9.116.81
+ host 10.9.116.80
+ host 10.9.116.78
+ host 10.9.116.140
+ host 10.9.116.184
+ host 10.9.164.127
+
+Network object group obj-AWS_DCs
+ host 10.9.118.10
+ host 10.9.118.11
+ host 10.9.166.50
+ host 10.9.166.35
+
+Service object group obj-DOMAIN_CONTROLLER_PORTS
+ udp eq ntp
+ tcp eq 135
+ tcp eq 464
+ udp eq 464
+ tcp eq 389
+ udp eq 389
+ tcp eq 636
+ tcp eq 3268
+ tcp eq 3269
+ tcp eq domain
+ udp eq domain
+ tcp eq 88
+ udp eq 88
+ tcp eq 445
+ tcp range 1024 65535
+
+Network object group obj-HQ_DC's
+ host 192.168.10.11
+ host 192.168.110.8
+ host 192.168.110.9
+ host 192.168.1.9
+ host 192.168.10.15
+ host 192.168.10.13
+
+Network object group obj-HQ_SCOM_SERVERS
+ host 192.168.2.175
+ host 192.168.2.176
+
+Service object group obj-MSSQL-30001-and-Browser
+ udp eq 1434
+ tcp eq 30001
+
+Service object group obj-MSSQL-Dynamic-Ports
+ udp eq 1434
+ tcp range 49152 65535
+
+Service object group obj-SCCM-Ports
+ tcp eq domain
+ tcp eq www
+ tcp eq 135
+ tcp eq 139
+ tcp eq 389
+ tcp eq 443
+ tcp eq 445
+ tcp eq 1433
+ tcp eq 2701
+ tcp eq 2702
+ tcp eq 8530
+ tcp eq 8531
+ tcp eq 16992
+ tcp eq 16993
+ tcp eq 137
+ udp eq netbios-ns
+ udp eq netbios-dgm
+ icmp echo
+ udp eq domain
+ tcp eq 10123
+ udp eq 135
+ tcp range 1024 5000
+ tcp range 49152 65535
+
+Service object group obj-SCOM_PORT_5723
+ tcp eq 5723
+
+Network object group obj-SMT-Tool-AWS-Hosts
+ host 10.9.192.98
+ host 10.253.2.168
+ host 10.9.194.94
+ host 10.9.204.96
+ host 10.253.4.147
+
+Network object group obj-SMT-Tool-DR-Hosts
+ host 10.10.128.223
+
+Service object group obj-SMT-Tool-Ports
+ tcp eq 135
+ tcp eq 139
+ tcp eq 445
+ tcp eq 3389
+ udp eq netbios-ns
+ udp eq netbios-dgm
+
+Service object group obj-ad-replication-ports
+ icmp echo
+ icmp echo-reply
+ udp eq ntp
+ tcp eq 135
+ udp eq 135
+ tcp range 49152 65535
+ tcp eq 389
+ udp eq 389
+ tcp eq 636
+ tcp eq 3268
+ tcp eq 3269
+ tcp eq domain
+ udp eq domain
+ tcp eq 88
+ udp eq 88
+ tcp eq 445
+
+Network object group obj-region-to-region-AlwaysOn-oregon-hosts
+ host 10.253.2.129
+ host 10.253.2.196
+
+Service object group obj-region-to-region-AlwaysOn-ports
+ tcp eq 3343
+ udp eq 3343
+ tcp eq 135
+ udp eq netbios-ns
+ icmp
+ tcp range 49152 65535
+ tcp eq 10001
+ udp eq 1434
+
+Network object group obj-region-to-region-AlwaysOn-virginia-hosts
+ host 10.9.192.105
+ host 10.9.196.54
+ host 10.9.202.59
+
+Network object group obj-region-to-region-ad-oregon-hosts
+ host 10.253.2.168
+
+Network object group obj-region-to-region-ad-virginia-hosts
+ host 10.9.192.98
+
+Network object group obj-region-to-region-cifs-oregon-hosts
+ host 10.253.2.129
+
+Network object group obj-region-to-region-cifs-virginia-hosts
+ host 10.9.192.101
+ host 10.9.192.105
+ host 10.9.196.54
+
+Network object group obj-region-to-region-db-oregon-hosts
+ host 10.253.4.119
+ host 10.253.4.121
+ host 10.253.2.129
+ host 10.253.4.147
+ host 10.253.4.96
+ host 10.253.2.100
+ host 10.253.2.102
+ host 10.253.4.151
+ host 10.253.2.196
+
+Network object group obj-region-to-region-db-virginia-hosts
+ host 10.9.194.94
+ host 10.9.197.116
+ host 10.9.192.105
+ host 10.9.196.54
+ host 10.9.192.102
+ host 10.9.196.102
+ host 10.9.192.100
+ host 10.9.196.100
+ host 10.9.204.96
+ host 10.9.202.59
+ 
